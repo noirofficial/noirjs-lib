@@ -9,7 +9,7 @@ exports.bitcoin = {
   },
   pubKeyHash: 0x50,
   scriptHash: 0x35,
-  wif: 0xD0,
+  wif: 0xd0,
 };
 exports.regtest = {
   messagePrefix: '\x18Noir Signed Message:\n',
@@ -19,8 +19,8 @@ exports.regtest = {
     private: 0x04358394,
   },
   pubKeyHash: 0x41,
-  scriptHash: 0xB2,
-  wif: 0xEF,
+  scriptHash: 0xb2,
+  wif: 0xef,
 };
 exports.testnet = {
   messagePrefix: '\x18Noir Signed Message:\n',
@@ -31,5 +31,5 @@ exports.testnet = {
   },
   pubKeyHash: 0x41,
   scriptHash: 0x34,
-  wif: 0xC1,
+  wif: 0xc1,
 };
