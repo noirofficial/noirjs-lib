@@ -1,3 +1,7 @@
+# 5.2.1
+__changed__
+- Bitcoin -> Noir
+
 # 5.2.0
 __changed__
 - Updated PSBT to allow for witnessUtxo and nonWitnessUtxo simultaneously (Re: segwit psbt bug) (#1563)

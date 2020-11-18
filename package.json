@@ -1,18 +1,18 @@
 {
-  "name": "bitcoinjs-lib",
-  "version": "5.2.0",
-  "description": "Client-side Bitcoin JavaScript library",
+  "name": "noirjs-lib",
+  "version": "5.2.1",
+  "description": "Client-side Noir JavaScript library",
   "main": "./src/index.js",
   "types": "./types/index.d.ts",
   "engines": {
     "node": ">=8.0.0"
   },
   "keywords": [
-    "bitcoinjs",
-    "bitcoin",
+    "noirjs",
+    "noir",
     "browserify",
     "javascript",
-    "bitcoinjs"
+    "noirjs"
   ],
   "scripts": {
     "build": "npm run clean && tsc -p ./tsconfig.json && npm run formatjs",
@@ -42,7 +42,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitcoinjs/bitcoinjs-lib.git"
+    "url": "https://github.com/noirofficial/noirjs-lib.git"
   },
   "files": [
     "src",
